@@ -117,3 +117,6 @@ def delete_article():
 
 
 app.run("localhost", 80, True)
+
+
+print("Just an example")
