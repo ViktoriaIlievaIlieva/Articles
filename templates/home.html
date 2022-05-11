@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> All Articles </title>
+</head>
+<body>
+    <h1> <i> ALL ARTICLES </i> </h1>
+    <ol>
+    {% for article in list_with_article_titles %}
+        <li>
+            {{ article[0] }}
+            -
+            <a href="/single_article?id={{ article[1] }}"> Read more </a>
+        </li>
+    {% endfor %}
+    </ol>
+    <a href="/create_new_article"><b>Create New</b></a>
+
+</body>
+</html>

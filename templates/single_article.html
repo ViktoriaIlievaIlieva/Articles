@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single Article</title>
+</head>
+<body>
+
+    <h1> {{ data_for_single_article[0] }}</h1>
+    {{ data_for_single_article[2] }}
+    <p>{{ data_for_single_article[1] }}</p>
+
+    <a href="/"><b>Homepage</b></a>
+
+    <a href="/update_article?id={{ id }}"><b>Edit</b></a>
+
+    <a href="/delete_article?id={{ id }}"><b>Delete</b></a>
+
+</body>
+</html>

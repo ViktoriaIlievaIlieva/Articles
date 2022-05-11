@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Task</title>
+</head>
+<body>
+    <form action="/create_new_article" method="POST">
+        <label for="title">Title</label>
+        <input id="title" name="title" required ="required">
+        <br/>
+
+        <label for ="content" >Content</label>
+        <textarea id ="content" name ="content" required ="required"></textarea>
+        <br/>
+
+        <label for ="publish_date" > Publish Date </label>
+        <input id= "publish_date" name="publish_date" type="date" required="required">
+        <br/>
+
+        <button type="submit">Publish</button>
+
+    </form>
+    <a href="/"><b>Homepage</b></a>
+
+</body>
+</html>
